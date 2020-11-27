@@ -96,3 +96,56 @@ img {
 .principal .titular button:active {
     box-shadow:none;
 }
+
+.trabajos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.trabajos h2 {
+    width: 100%;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 2rem;
+    background: hsl(108, 47%, 24%);
+    color: #fff;
+    padding: 0.3em;
+}
+
+.trabajos .trabajo {
+    display: flex;
+    color: white;
+    margin: 2%;
+    border-radius: 20px;
+    flex-direction: column;
+    box-shadow: 4px 4px 10px gray;
+}
+
+.trabajos .trabajo figure {
+    width: 100%;
+}
+
+.trabajos .trabajo figure img{
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+ .trabajo h3,.trabajo p {
+     font-family: s;
+     text-align: center;
+     margin: 10px;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+
+.green {
+    background: hsl(108, 47%, 34%);
+}
+
+.greenclaro{
+    background: hsl(108, 37%, 44%);
+}
+
+.greenclarito{
+    background: hsl(108, 37%, 54%);
+}
