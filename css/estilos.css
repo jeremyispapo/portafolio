@@ -81,7 +81,7 @@ img {
 .principal .titular button {
     background: rgb(86, 160, 52);
     padding: 1.3em;
-    width: 30%;
+    width: auto;
     margin-top: 1.3em;
     border-radius: 12px;
     border: none;
